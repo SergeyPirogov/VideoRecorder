@@ -49,6 +49,9 @@ public interface VideoConfiguration extends Config {
   @DefaultValue("MONTE")
   RecorderType recorderType();
 
+  @Key("recorder.class")
+  String recorderClass();
+
   @Key("video.save.mode")
   @DefaultValue("FAILED_ONLY")
   VideoSaveMode saveMode();

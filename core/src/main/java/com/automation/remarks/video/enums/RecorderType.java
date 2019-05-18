@@ -5,5 +5,6 @@ package com.automation.remarks.video.enums;
  */
 public enum RecorderType {
     MONTE,
-    FFMPEG
+    FFMPEG,
+    CUSTOM
 }
